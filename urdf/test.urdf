@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="your_robot">
+
+  <!-- Base link -->
+  <link name="base_link"/>
+
+  <!-- First joint and link -->
+  <link name="link1">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.05"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.05"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint1" type="fixed">
+    <origin xyz="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Second joint and link -->
+  <link name="link2">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.05"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.05"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint2" type="continuous">
+    <origin xyz="0.1 0 0"/>
+    <parent link="link1"/>
+    <child link="link2"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+</robot>
