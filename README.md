@@ -1,7 +1,7 @@
 ## 🧵 자율주행 RC카
 이 저장소는 **Raspberry Pi4**기반 **자율주행 RC카** 프로젝트입니다.
 
-(`HTTP, TCP, I2C, UART, A*, 2D Mapping, ROS2`)기술 들을 Python으로 실습할 수 있습니다.
+(`HTTP, TCP, I2C, UART, A*, 2D Mapping, ROS2`)의 기술을 Python으로 실습할 수 있습니다.
 <br><br>
 
 ## ⚙️ 활용 플랫폼 (자체 제작)
