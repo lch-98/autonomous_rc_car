@@ -22,12 +22,12 @@
 
 > **매핑데이터 웹에서 확인 (With Python Flask)**
 
-[![매핑데이터확인](https://github.com/user-attachments/assets/838226a4-5641-4b89-80d7-83ae2163638d)](https://blog.naver.com/dlcndgusgnss/223395134599)
+[![매핑실행](https://github.com/user-attachments/assets/9ab15694-0e5d-4c58-9fbc-c5ef16e720d5)](https://blog.naver.com/dlcndgusgnss/223395134599)
 <br><br>
 
 > **매핑데이터로 격자맵 생성**
 
-[![격자맵](https://github.com/user-attachments/assets/4b3d5ded-8a01-41f2-bdb6-98966974a9fd)](https://blog.naver.com/dlcndgusgnss/223311743831)
+[![격자맵](https://github.com/user-attachments/assets/e7cf764d-b741-4be0-9197-d5c114d1436d)](https://blog.naver.com/dlcndgusgnss/223311743831)
 <br><br>
 
 > **A*기반 자율주행 시뮬레이터**
